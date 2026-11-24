@@ -1,0 +1,12 @@
+/.dojo/
+/.dojo-d/
+/target/
+/node_modules/
+/dist/
+/test-results/
+/playwright-report/
+/tests/output/
+/fixtures/perf-100k.ply
+*.part
+.DS_Store
+AGENTS.local.md

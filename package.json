@@ -1,0 +1,46 @@
+{
+  "name": "threedmaker",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:e2e": "vite build --mode e2e",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "test:render": "playwright test",
+    "fixtures": "cargo run -q -p maker-core --example make_fixtures -- fixtures",
+    "e2e:native": "node tests/e2e-native/run.mjs",
+    "perf:native": "node tests/e2e-native/run.mjs --perf",
+    "live:smoke": "cargo run -p maker-core --example live_smoke --",
+    "bundle:mac": "tauri build --bundles app,dmg",
+    "bundle:windows": "tauri build --bundles nsis",
+    "bundle:linux": "tauri build --bundles appimage,deb",
+    "check": "cargo fmt --all --check && cargo clippy --workspace --all-targets -- -D warnings && cargo test --workspace && npm run typecheck && npm test && npm run test:render",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "@tauri-apps/api": "~2.12.5",
+    "playcanvas": "^2.24.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@mkkellogg/gaussian-splats-3d": "^0.4.7",
+    "@playwright/test": "^1.65.1",
+    "@tauri-apps/cli": "^2.12.6",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "jsdom": "^31.0.1",
+    "three": "^0.187.0",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  }
+}

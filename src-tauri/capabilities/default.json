@@ -1,0 +1,27 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "The only permissions the 3D Maker window needs: its own commands and event listening. No filesystem, shell, HTTP or dialog access from the webview — Rust owns all of that.",
+  "windows": ["main"],
+  "permissions": [
+    "core:event:allow-listen",
+    "core:event:allow-unlisten",
+    "allow-get-app-state",
+    "allow-detect-providers",
+    "allow-set-model",
+    "allow-connect-provider",
+    "allow-disconnect-provider",
+    "allow-select-provider",
+    "allow-start-generation",
+    "allow-adjust-object",
+    "allow-cancel-generation",
+    "allow-retry-project",
+    "allow-list-projects",
+    "allow-get-project",
+    "allow-delete-project",
+    "allow-export-splat",
+    "allow-import-splat",
+    "allow-save-thumbnail",
+    "allow-report-viewer-issue"
+  ]
+}

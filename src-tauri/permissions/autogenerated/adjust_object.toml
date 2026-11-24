@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-adjust-object"
+description = "Enables the adjust_object command without any pre-configured scope."
+commands.allow = ["adjust_object"]
+
+[[permission]]
+identifier = "deny-adjust-object"
+description = "Denies the adjust_object command without any pre-configured scope."
+commands.deny = ["adjust_object"]

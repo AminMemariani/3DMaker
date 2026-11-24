@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-report-viewer-issue"
+description = "Enables the report_viewer_issue command without any pre-configured scope."
+commands.allow = ["report_viewer_issue"]
+
+[[permission]]
+identifier = "deny-report-viewer-issue"
+description = "Denies the report_viewer_issue command without any pre-configured scope."
+commands.deny = ["report_viewer_issue"]

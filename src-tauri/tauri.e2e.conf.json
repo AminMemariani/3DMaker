@@ -1,0 +1,19 @@
+{
+  "build": { "beforeBuildCommand": "npm run build:e2e" },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "3D Maker (e2e)",
+        "width": 1280,
+        "height": 820,
+        "minWidth": 560,
+        "minHeight": 440,
+        "dragDropEnabled": false,
+        "backgroundThrottling": "disabled"
+      }
+    ],
+    "security": { "capabilities": ["default", "e2e"] }
+  },
+  "bundle": { "active": false }
+}

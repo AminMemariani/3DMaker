@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-import-splat"
+description = "Enables the import_splat command without any pre-configured scope."
+commands.allow = ["import_splat"]
+
+[[permission]]
+identifier = "deny-import-splat"
+description = "Denies the import_splat command without any pre-configured scope."
+commands.deny = ["import_splat"]
