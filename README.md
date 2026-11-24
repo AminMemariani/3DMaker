@@ -8,6 +8,8 @@ like *"make the wheels red"*.
 
 Free and open source. Works on **Mac, Windows and Linux**.
 
+![3D Maker showing a red rose it made from the prompt "Create a 3d rose flower"](docs/images/screenshot.png)
+
 ---
 
 ## 1. Download
