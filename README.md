@@ -12,7 +12,7 @@ Free and open source. Works on **Mac, Windows and Linux**.
 
 ## 1. Download
 
-👉 **[Download the latest version](https://github.com/AminMemariani/3Dmaker/releases/latest)**
+👉 **[Download the latest version](https://github.com/AminMemariani/3DMaker/releases/latest)**
 
 On that page, scroll down to **Assets** and click the file for your computer:
 
@@ -101,11 +101,11 @@ Your key stays on your computer, stored in your system's secure password storage
 
 - **"Couldn't reach …"**: check your internet connection and try again. If it keeps happening,
   copy the whole message (including the **Details:** line) into a
-  [new issue](https://github.com/AminMemariani/3Dmaker/issues).
+  [new issue](https://github.com/AminMemariani/3DMaker/issues).
 - **"rejected your key"**: the key was mistyped or has expired. Paste a fresh one in **Settings** (⚙).
 - **Claude Code / Codex "isn't signed in"**: open a terminal and run `claude` or `codex login`
   once, then try again.
-- Found a bug or have an idea? [Open an issue](https://github.com/AminMemariani/3Dmaker/issues).
+- Found a bug or have an idea? [Open an issue](https://github.com/AminMemariani/3DMaker/issues).
 
 ## For developers
 

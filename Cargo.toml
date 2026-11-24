@@ -7,7 +7,7 @@ default-members = ["src-tauri", "crates/maker-core", "crates/fake-provider"]
 version = "0.1.0"
 edition = "2024"
 license = "MIT"
-repository = "https://github.com/AminMemariani/3Dmaker"
+repository = "https://github.com/AminMemariani/3DMaker"
 rust-version = "1.85"
 
 [workspace.dependencies]
